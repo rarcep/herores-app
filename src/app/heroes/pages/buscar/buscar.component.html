@@ -27,6 +27,7 @@
     </mat-form-field>
   </div>
   <div *ngIf="heroeSelecionada">
-    <app-heroe-tarjeta [heroe]="heroeSelecionada"></app-heroe-tarjeta>
+    <!-- <app-heroe-tarjeta [heroe]="heroeSelecionada"></app-heroe-tarjeta> -->
+      <pre>{{heroeSelecionada | json}}</pre>
   </div>
 </div>
